@@ -4,16 +4,16 @@ import classNames from 'classnames';
 import stylesTema from 'styles/Tema.module.scss';
 import { useNavigate } from 'react-router-dom';
 
-export default function NotFound(){
+export default function NotFound() {
   const navigate = useNavigate();
-  return(
+  return (
     <div className={classNames({
-      [styles.container]: true, 
+      [styles.container]: true,
       [stylesTema.container]: true
     })}>
       <div className={styles.voltar}>
         <button onClick={() => navigate(-1)}>
-          {'< Voltar '}
+          {'< Voltar'}
         </button>
       </div>
       <NotFoundImage />

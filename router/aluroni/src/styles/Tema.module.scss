@@ -1,5 +1,6 @@
 @import "./variaveis";
 @import "./breakpoints";
+
 .container {
   padding: 50px $padding-horizontal;
   @media (max-width: $desktop_xsm) {
@@ -12,6 +13,7 @@
     padding: 50px $padding-horizontal-md;
   }
 }
+
 .titulo {
   color: $dark;
   font-size: 3rem;
